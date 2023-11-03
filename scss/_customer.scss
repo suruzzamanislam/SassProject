@@ -1,0 +1,44 @@
+.customer_section{
+    padding: 100px 0;
+    background-color: #daccfd;
+
+    .container{
+        padding: 0 10%;
+        
+        h1{
+            font-size: 50px;
+            text-align: center;
+            font-weight: bold;
+            margin-bottom: 40px;
+            color: #3a1f7e;
+        }
+        .customer_box{
+            border: #3a1f7e solid 1px;
+            margin-top: 0px;
+            padding: 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            column-gap: 50px;
+
+            .customer_img{
+
+                span{
+                    display: block;
+                    font-size: 19px;
+                    text-decoration: underline;
+                    color: #3a1f7e;
+                    text-align: center;
+                    margin-top: 5px;
+                }
+            }
+            .customer_text{
+                p{
+                    font-size: 24px;
+                    word-spacing: 3px;
+                    line-height: 31px;
+                }
+            }
+        }
+    }
+}
